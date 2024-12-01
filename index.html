@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Everest - Home</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <header>
+      <div id="navbar-placeholder"></div>
+    </header>
+
+    <main>
+      <!-- Slider Section -->
+      <section class="slideshow-container">
+        <div class="slide">
+          <img src="./images/1.jpg" alt="Everest Slide 1" />
+        </div>
+        <div class="slide">
+          <img src="./images/2.jpg" alt="Everest Slide 2" />
+        </div>
+        <div class="slide">
+          <img src="./images/3.jpg" alt="Everest Slide 3" />
+        </div>
+        <div class="slide">
+          <img src="./images/4.jpg" alt="Everest Slide 4" />
+        </div>
+
+        <div class="slideshow-dots">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+      </section>
+
+      <!-- Testimonial Section -->
+      <section id="testimonial">
+        <div class="container">
+          <img src="./images/2.jpg" alt="Mount Everest" class="main-image" />
+          <h1>"It is not the mountain we conquer but ourselves."</h1>
+          <div class="profile">
+            <img
+              src="./images/ed.jpg"
+              alt="Sir Edmund Hillary"
+              class="profile-image"
+            />
+            <h4>Sir Edmund Hillary</h4>
+            <p>First to Summit Mount Everest</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="history.html">History</a></li>
+          <li><a href="challenges.html">Challenges</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <img src="./images/foterlogo.png" alt="logo" class="footer-logo" />
+        <p>&copy; 2024 Everest. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
